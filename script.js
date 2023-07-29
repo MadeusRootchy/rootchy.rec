@@ -32,7 +32,7 @@ const koule1 = rantreKoule ("Rantre yon premye koule");
 const koule2 = rantreKoule ("Rantre yon dezyem koule");
 
 
- for (let i = 0;i <= 5; i++ ){
+ for (let i = 0;i < 6; i++ ){
     let randomNumber = Math.random();
  
     if (randomNumber<0.5){
